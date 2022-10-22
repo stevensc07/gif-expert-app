@@ -10,6 +10,7 @@ export const AddCategory = () => {
         event.preventDefault();
         console.log(inputValue)
     }
+    
     return (
         <form  onSubmit={ (event) => onSubmit(event)}>
             <input
